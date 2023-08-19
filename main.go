@@ -2,11 +2,16 @@ package mai
 
 import "fmt"
 
-func som(a, b int) int {
+func sum(a, b int) int {
 	return a + b
+}
+
+func multi(a, b int) int {
+	return a * b
 }
 
 func main() {
 	fmt.Println("Hello Github")
 	fmt.Println(sum(1, 2))
+	fmt.Println(multi(1, 2))
 }
